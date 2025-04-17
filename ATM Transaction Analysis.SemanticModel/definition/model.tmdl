@@ -1,0 +1,23 @@
+model Model
+	culture: en-CA
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-CA
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.141.1558.0 (25.03)+75b5f06a991f8f8a8a4d6b6fcd0f66e1ec2d6fdc
+
+annotation PBI_QueryOrder = ["dataset","Data Dictionary","Atm type Dictionary"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dataset
+ref table MonthTable
+ref table 'Data Dictionary'
+ref table 'Atm type Dictionary'
+
+ref cultureInfo en-CA
+

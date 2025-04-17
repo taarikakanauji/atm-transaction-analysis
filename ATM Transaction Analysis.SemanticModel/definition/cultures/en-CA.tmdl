@@ -1,0 +1,3343 @@
+cultureInfo en-CA
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dataset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dataset": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dataset.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.ATM_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "ATM id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ATM id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ATM": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "atm identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "atm identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "atm identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "atm credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "STATE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {},
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "country": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.fin_txn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Fin Txn"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fin txn": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.non_fin_txn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Non Fin Txn"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "non fin txn": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.monthly_txn": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Monthly Txn"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly txn": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.monthly_rev": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Monthly Rev"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly rev": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rev": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly revolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly rotation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly rpm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rotation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rpm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "monthly cycle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "monthly turn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cycle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "turn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.MHA_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "MHA Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MHA revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mha income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "mha profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mha turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mha yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.ATM_rev_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "ATM Rev Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ATM rev total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rev total": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "atm rev aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "atm rev overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "rev aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "rev overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.cra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "CRA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cra": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.site_maint_non_asset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Site Maint (Non Asset)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "site maint (non asset)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "site maint": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.spare_rep_UPS": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Spare Rep.(UPS)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spare rep.(UPS)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "spare rep.": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.ups_amc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "UPS AMC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ups amc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "amc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.atm_amc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "ATM AMC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "atm amc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "amc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.vsat_amc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "VSAT AMC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vsat amc": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.ebill": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "EBILL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ebill": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.penalty": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Penalty"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "penalty": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "drawback": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disadvantage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "forfeit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "punishment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "penalization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "sentence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.total_cost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Total Cost"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.gross_profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Gross Profit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gross profit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "profit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "overall profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "whole profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "sum profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "gross income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gross revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gross turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gross return": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.atm_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "ATM TYPE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "atm type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "atm category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "atm genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "atm manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "atm variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "atm brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "atm class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.MARGIN_RANGE_current_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "MARGIN RANGE Current Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "MARGIN RANGE current month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "current month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "RANGE current month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "margin range current mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "range current mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "current mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "margin range latest month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "margin range contemporary month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "margin range present month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "range latest month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "range contemporary month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "range present month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Margin Range (Selected Month)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.TXN_RANGE_previous_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "TXN RANGE Previous Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "TXN RANGE previous month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "txn range previous mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "Txn Range (Previous Month)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.revenue_performance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Revenue Performance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "revenue performance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "performance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "income performance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "profit performance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "turnover performance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "yield performance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "revenue presentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue recital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue enactment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "presentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "recital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "enactment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.up_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Up Time"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "up time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "up duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "up interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "up moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "up period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "up timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.month_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Month Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "dataset.gross_profit_percentage": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dataset",
+			          "ConceptualProperty": "Gross Profit Percentage"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gross profit percentage": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "profit percentage": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate profit percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.657
+			          }
+			        },
+			        {
+			          "overall profit percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.657
+			          }
+			        },
+			        {
+			          "whole profit percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.657
+			          }
+			        },
+			        {
+			          "sum profit percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total profit percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "gross profit ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "gross profit measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "gross profit calculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "profit ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "Gross Profit %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "month_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MonthTable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthTable": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mth table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "month tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "month bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "month table top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "month_table.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MonthTable",
+			          "ConceptualProperty": "Month Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "month_table.month_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MonthTable",
+			          "ConceptualProperty": "Month Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "month_table.month_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MonthTable",
+			          "ConceptualProperty": "Month Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dataset_has_revenue_performance": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.revenue_performance": {
+			          "Target": {
+			            "Entity": "dataset.revenue_performance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.revenue_performance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_revenue_performances"
+			        }
+			      ]
+			    },
+			    "dataset_has_TXN_RANGE_previous_month": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.TXN_RANGE_previous_month": {
+			          "Target": {
+			            "Entity": "dataset.TXN_RANGE_previous_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.TXN_RANGE_previous_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_TXN_RANGE_previous_months"
+			        }
+			      ]
+			    },
+			    "dataset_has_TXN_RANGE_current_month": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.TXN_RANGE_current_month": {
+			          "Target": {
+			            "Entity": "dataset.TXN_RANGE_current_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.TXN_RANGE_current_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_TXN_RANGE_current_months"
+			        }
+			      ]
+			    },
+			    "dataset_has_MARGIN_RANGE_current_month": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.MARGIN_RANGE_current_month": {
+			          "Target": {
+			            "Entity": "dataset.MARGIN_RANGE_current_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.MARGIN_RANGE_current_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_MARGIN_RANGE_current_months"
+			        }
+			      ]
+			    },
+			    "dataset_has_atm_type": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.atm_type": {
+			          "Target": {
+			            "Entity": "dataset.atm_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.atm_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_atm_types"
+			        }
+			      ]
+			    },
+			    "dataset_has_gross_profit_": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.gross_profit_": {
+			          "Target": {
+			            "Entity": "dataset.gross_profit_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.gross_profit_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_gross_profit_"
+			        }
+			      ]
+			    },
+			    "dataset_has_gross_profit": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.gross_profit": {
+			          "Target": {
+			            "Entity": "dataset.gross_profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.gross_profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_gross_profits"
+			        }
+			      ]
+			    },
+			    "dataset_has_total_cost": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.total_cost": {
+			          "Target": {
+			            "Entity": "dataset.total_cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.total_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_total_costs"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.total_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_cost_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_penalty": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.penalty": {
+			          "Target": {
+			            "Entity": "dataset.penalty"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.penalty"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_penalties"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.penalty"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "penalty_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_ebill": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.ebill": {
+			          "Target": {
+			            "Entity": "dataset.ebill"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.ebill"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_ebills"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.ebill"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ebill_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_vsat_amc": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.vsat_amc": {
+			          "Target": {
+			            "Entity": "dataset.vsat_amc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.vsat_amc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_vsat_amc"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.vsat_amc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vsat_amc_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_atm_amc": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.atm_amc": {
+			          "Target": {
+			            "Entity": "dataset.atm_amc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.atm_amc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_atm_amc"
+			        }
+			      ]
+			    },
+			    "dataset_has_ups_amc": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.ups_amc": {
+			          "Target": {
+			            "Entity": "dataset.ups_amc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.ups_amc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_ups_amc"
+			        }
+			      ]
+			    },
+			    "dataset_has_spare_rep_UPS": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.spare_rep_UPS": {
+			          "Target": {
+			            "Entity": "dataset.spare_rep_UPS"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.spare_rep_UPS"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_spare_rep_UPS"
+			        }
+			      ]
+			    },
+			    "dataset_has_site_maint_non_asset": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.site_maint_non_asset": {
+			          "Target": {
+			            "Entity": "dataset.site_maint_non_asset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.site_maint_non_asset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_site_maint_non_asset"
+			        }
+			      ]
+			    },
+			    "dataset_has_cra": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.cra": {
+			          "Target": {
+			            "Entity": "dataset.cra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.cra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_cras"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.cra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cra_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_ATM_rev_total": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.ATM_rev_total": {
+			          "Target": {
+			            "Entity": "dataset.ATM_rev_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.ATM_rev_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_ATM_rev_totals"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.ATM_rev_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ATM_rev_total_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_MHA_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.MHA_revenue": {
+			          "Target": {
+			            "Entity": "dataset.MHA_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.MHA_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_MHA_revenues"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.MHA_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "MHA_revenue_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_monthly_rev": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.monthly_rev": {
+			          "Target": {
+			            "Entity": "dataset.monthly_rev"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.monthly_rev"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_monthly_revs"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dataset.monthly_rev"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "monthly_rev_indicates_how_expensive_datasets_are"
+			        }
+			      ]
+			    },
+			    "dataset_has_AVG_total_TXN": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.AVG_total_TXN": {
+			          "Target": {
+			            "Entity": "dataset.AVG_total_TXN"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.AVG_total_TXN"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_AVG_total_TXNs"
+			        }
+			      ]
+			    },
+			    "dataset_has_monthly_txn": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.monthly_txn": {
+			          "Target": {
+			            "Entity": "dataset.monthly_txn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.monthly_txn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_monthly_txns"
+			        }
+			      ]
+			    },
+			    "dataset_has_non_fin_txn": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.non_fin_txn": {
+			          "Target": {
+			            "Entity": "dataset.non_fin_txn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.non_fin_txn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_non_fin_txns"
+			        }
+			      ]
+			    },
+			    "dataset_has_fin_txn": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.fin_txn": {
+			          "Target": {
+			            "Entity": "dataset.fin_txn"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.fin_txn"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_fin_txns"
+			        }
+			      ]
+			    },
+			    "dataset_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.state": {
+			          "Target": {
+			            "Entity": "dataset.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_states"
+			        }
+			      ]
+			    },
+			    "dataset_has_ATM_id": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.ATM_id": {
+			          "Target": {
+			            "Entity": "dataset.ATM_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.ATM_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_ATM_ids"
+			        }
+			      ]
+			    },
+			    "dataset_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.year": {
+			          "Target": {
+			            "Entity": "dataset.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_years"
+			        }
+			      ]
+			    },
+			    "dataset_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.state": {
+			          "Target": {
+			            "Entity": "dataset.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dataset.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dataset.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_are_in_states"
+			        }
+			      ]
+			    },
+			    "dataset_has_up_time": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.up_time": {
+			          "Target": {
+			            "Entity": "dataset.up_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.up_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_up_time"
+			        }
+			      ]
+			    },
+			    "dataset_has_month_year": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.month_year": {
+			          "Target": {
+			            "Entity": "dataset.month_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.month_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_month_years"
+			        }
+			      ]
+			    },
+			    "dataset_has_gross_profit_percentage": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.gross_profit_percentage": {
+			          "Target": {
+			            "Entity": "dataset.gross_profit_percentage"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.gross_profit_percentage"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_gross_profit_percentage"
+			        }
+			      ]
+			    },
+			    "dataset_has_formatted_margin_measure": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "dataset.formatted_margin_measure": {
+			          "Target": {
+			            "Entity": "dataset.formatted_margin_measure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "dataset.formatted_margin_measure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_formatted_margin_measure"
+			        }
+			      ]
+			    },
+			    "month_table_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "MonthTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "month_table": {
+			          "Target": {
+			            "Entity": "month_table"
+			          }
+			        },
+			        "month_table.month_name": {
+			          "Target": {
+			            "Entity": "month_table.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "month_table"
+			            },
+			            "Object": {
+			              "Role": "month_table.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_tables_have_month_names"
+			        }
+			      ]
+			    },
+			    "month_table_has_month_number": {
+			      "Binding": {
+			        "ConceptualEntity": "MonthTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "month_table": {
+			          "Target": {
+			            "Entity": "month_table"
+			          }
+			        },
+			        "month_table.month_number": {
+			          "Target": {
+			            "Entity": "month_table.month_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "month_table"
+			            },
+			            "Object": {
+			              "Role": "month_table.month_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_tables_have_month_numbers"
+			        }
+			      ]
+			    },
+			    "month_table_has_month_year": {
+			      "Binding": {
+			        "ConceptualEntity": "MonthTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "month_table": {
+			          "Target": {
+			            "Entity": "month_table"
+			          }
+			        },
+			        "month_table.month_year": {
+			          "Target": {
+			            "Entity": "month_table.month_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "month_table"
+			            },
+			            "Object": {
+			              "Role": "month_table.month_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_tables_have_month_years"
+			        }
+			      ]
+			    },
+			    "dataset_has_month_table": {
+			      "Binding": {
+			        "ConceptualEntity": "dataset"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dataset": {
+			          "Target": {
+			            "Entity": "dataset"
+			          }
+			        },
+			        "month_table": {
+			          "Target": {
+			            "Entity": "month_table"
+			          },
+			          "Nouns": [
+			            {
+			              "month": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dataset"
+			            },
+			            "Object": {
+			              "Role": "month_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datasets_have_month_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "month_table"
+			            },
+			            "Object": {
+			              "Role": "dataset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "month_tables_have_datasets"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

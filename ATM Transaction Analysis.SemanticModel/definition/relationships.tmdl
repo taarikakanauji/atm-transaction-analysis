@@ -1,0 +1,8 @@
+relationship 407502c8-2f30-c8dc-9980-b18ed2248a9f
+	fromColumn: dataset.Month
+	toColumn: MonthTable.'Month Name'
+
+relationship AutoDetected_79db6942-5082-47ec-92e0-fd48b2f5dc6e
+	fromColumn: dataset.'ATM TYPE'
+	toColumn: 'Atm type Dictionary'.'ATM Type'
+

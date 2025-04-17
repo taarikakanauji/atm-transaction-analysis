@@ -1,0 +1,38 @@
+table 'Atm type Dictionary'
+	lineageTag: 51bb6353-4d00-4a2d-ba03-6510e2c835e2
+
+	column 'ATM Type'
+		dataType: string
+		lineageTag: 50b96c2d-68dd-4721-8281-ad620617b2f0
+		summarizeBy: none
+		sourceColumn: ATM Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Meaning
+		dataType: string
+		lineageTag: 2b0ac5b0-f056-418c-ac01-f0d7a5202ddb
+		summarizeBy: none
+		sourceColumn: Meaning
+
+		annotation SummarizationSetBy = Automatic
+
+	column ' Real-World Scenario'
+		dataType: string
+		lineageTag: 1d605d02-e59e-4f3d-8a5c-eba2dd681cff
+		summarizeBy: none
+		sourceColumn: " Real-World Scenario"
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Atm type Dictionary' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("fZJNbttADIWvQmjVAIITdNO106RBgCYoUu/cLKgRJROeH2E4Y1W7HqIn7EnKGSuAUSDd2SOS772P3O+bzzglPlHTNtvdE7CXhNZSX35xT4BgQpxCxETXXRb2JAJTJMdCAvTTWH08kV1gCBE46ZubbFiI5NpkScFRlE2ZDh3645uAAHpYBf+RgTAMbAg+0GbctPDohyCLgEE3ZbmCP79+gw8JwkQeUoApd5bNpnlt983d7Q6+c3oL01N10qtfdhh5NXnHkUyCW/I0cIJdRC8DRRBzIKehugXSgWAMJ4rekU/F/uMFGHUbc0QLGAmLB/0QZjixtThq3PI0czr0EWeQ3GlC1rmWjwRfvz208PT8cv+wbUEjCAcvZ/cvNGaLsbJSMd9j7Nd4FRUao/C5s1Q1/RI8tYAJ4rlRETqlbVidacy10waD6SzSNl9C9j140mIFcqQkxUSKwWq5m/RfRLYzLsVA7aq8s2huxTIqspL7kvlOEdyX6ndPSL1UxaSVk0V/ngxUm6SuZA5qJsqPfHPz8RPMSnFN+5/L0eC6B3JBT6aMHhWXnoSuZyuCrjCylKDHsvc6clW52A0qtkVzvP4F", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"ATM Type" = _t, Meaning = _t, #" Real-World Scenario" = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"ATM Type", type text}, {"Meaning", type text}, {" Real-World Scenario", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
