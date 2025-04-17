@@ -1,0 +1,30 @@
+table 'Data Dictionary'
+	lineageTag: 8672817a-1848-4bc6-8da6-00019142738d
+
+	column 'Field Name (with Full Form)'
+		dataType: string
+		lineageTag: 65459b02-3198-4b15-b718-0b1525025206
+		summarizeBy: none
+		sourceColumn: Field Name (with Full Form)
+
+		annotation SummarizationSetBy = Automatic
+
+	column Description
+		dataType: string
+		lineageTag: ea897047-e155-4138-8275-a3f824c53757
+		summarizeBy: none
+		sourceColumn: Description
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Data Dictionary' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("jVbbbhs3EP2VgQEDErpyZbdCgLzJipO4sA3DlgMURh6o3ZFEiEtuSK5svfU3+nv9kp4htdLaBYI+acglz5nLmaGen0/+ZOVPipOZMmwr5WmHNbklxTVT9MoGVUbt7Bldvaq6MfyRLsYXv598L55Pbp2Na7pTNQPgc2sMWdjd5Vq+9q79oWz/lqPB3mrrBfshIGCx12W+2cGIPz2Uc1o6L1it8rseXheGqxfackV5V9kqfUmXPKtKLbTRcffWrdE+nun8lq4/0WDaRlerCJQ5G8OeblW5Bio+iptPVv9omXTFNuqlxncVgl4Ja3TEOEuCVOdLZwn6MQIPd69tpZWlIEt6WbPnFKSc14GMK4U2X/msLc1fLQ1gKFtqZWh+rEcYpmhbGyVRy8ORXsmApzdMpQpretFxXXn1okxBFTcu6BgK4lhmrjtn6cCHxeh/cFoc+xnvQhl8Q57sj1b7XUH313dUrpVdcY851cnsMvNh8Y5z7iIobBJK0kWfDG4f5JaSRb/QPoThW44H3h45sGDb8hHe5w0U0Espl97VpKBpqY1wbXXUHJKSjvLO+F+nHRzwtdUh+p34+dWhHabLpdI+9Am7w4lj5bbsbQ0xjTybJLtjWrUtTRsQ56+fLucUyjXX8CGuvWtX6046Zwf1SoQ5msF+mXjS1rDfHvFNyIdYg2t9ySHTVtquSGKTLvK8ag0aaaHspruXeWcPUxrMRGQPjI5C9GsJhqYrtuVOWK9eG7aBqVE6tYi4rdJXghwqIzziblKqcSoRC6lxK+RSl2HfRBpNc6s0wAdHm22S2UiKTtMQOOZIQ0y1Kg0rC8CCmvUu6BJht82GuSkQho1FIqp7QPzaxb7Ur0iVEsjOg0ahYxHnGQ2e7h+H8KPbQY3hg2x27BCAT/uCleZPY1QpC9yJoRtwuEJhFyLXmUPW09tZIqCpxaAzbwKdQXgeghQeOYeW8ivULGVXpfOQdyfT9+iS54SejJ+jy+QEVD85ZZfWbmqBvHpBCjL6t8fpPMN/Y7TAY50aqGEfW2Rpzr6Gso2c6LwXrADRG4xlHi1UQMaFDj2I2rR5idTVDvUGj9pX4ury+uaGBleGy4g3AzOdLrVJIu/vcZZeUnTrfR7RvrUH/+s8DjLoPaI0cSeu1WnM5dxWVKFJcPHxZkpb7dCkxzEnIJV7wVMgT5+nxklE7Le63CclN6RI4jBrHFKSQGCXe610HqU7X7wLge69W2q5lQ1SSySGQrtIJRIl5T7OVZEmftPXx4rPdw2nRz7yyuXZhO2PNFMNBhvmsUwXaakCUk6NXqBaiq7SQ7WfckgFSvEgA5xmkkwkKE1TcZA9KlknjawwnBpxLlcTXVnuT6dk//PX30HOIL4mh1Vn5MHpEG01XWAe0m/j04Iu2bgXEmt8OprgZ3I6Oh+fDnNWXztf7hGudm04OPPlPw68+zNDW2fwX6N7OpoOIM/0QeadjAvKzlyMYX6YgBu/k/HowyS70I3XXvAiv60ybSpuUm5ycXA+3owuxpsCWDAmYkw2I4QJa5HozsVUiW8y3mSCp4bmOv27AkWJDGJqJqmI1jq9oDdUmunOGvmTIvNs2dpyL6/+84hCfv8X", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Field Name (with Full Form)" = _t, Description = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Field Name (with Full Form)", type text}, {"Description", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

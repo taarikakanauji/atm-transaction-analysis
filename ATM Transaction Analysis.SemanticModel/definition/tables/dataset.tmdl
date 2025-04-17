@@ -1,0 +1,312 @@
+table dataset
+	lineageTag: 5cf19ad4-a862-4370-8415-520289cbd8cc
+
+	measure 'Gross Profit Percentage' = DIVIDE(SUM('dataset'[Gross Profit]),SUM('dataset'[Monthly Rev]),0)
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: bb1fa3fb-f342-495c-a6fc-8681d23f31c1
+
+	measure 'Total Txn' = SUM('dataset'[Fin Txn]) + SUM('dataset'[Non Fin Txn])
+		formatString: 0
+		lineageTag: 4dc12d96-3940-44f2-9eee-f31dc9538966
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 004422e9-fd95-4f49-9a6b-99c72ce70662
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: string
+		lineageTag: 8f624c04-7b7d-4e52-97de-79a4bbe0747f
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ATM id'
+		dataType: string
+		lineageTag: 0e87f1a7-c454-4645-af4c-778767e436de
+		summarizeBy: none
+		sourceColumn: ATM id
+
+		annotation SummarizationSetBy = Automatic
+
+	column STATE
+		dataType: string
+		lineageTag: 1b10d381-ebf5-431e-954b-66dfe2ac3c44
+		summarizeBy: none
+		sourceColumn: STATE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Fin Txn'
+		dataType: int64
+		formatString: #,0
+		lineageTag: 150a2cf9-1c35-492f-9a22-3dd7057a0fd7
+		summarizeBy: sum
+		sourceColumn: Fin Txn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Non Fin Txn'
+		dataType: int64
+		formatString: #,0
+		lineageTag: 71a1758b-62d0-488e-8724-c0acd54cbbd1
+		summarizeBy: sum
+		sourceColumn: Non Fin Txn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Monthly Txn'
+		dataType: int64
+		formatString: #,0
+		lineageTag: b72dc16d-effa-4fed-9ce0-aa1d7ad532dd
+		summarizeBy: sum
+		sourceColumn: Monthly Txn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Monthly Rev'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: f710d270-d569-45ea-b6e5-5b517bb62117
+		summarizeBy: sum
+		sourceColumn: Monthly Rev
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'MHA Revenue'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: bb53621f-8da9-480b-a08c-421e0215dd08
+		summarizeBy: sum
+		sourceColumn: MHA Revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'ATM Rev Total'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: d1bd5418-2355-418b-91d0-57bb1925dba2
+		summarizeBy: sum
+		sourceColumn: ATM Rev Total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column CRA
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 2ebfb636-2e22-4629-8f8f-88191b89fa1e
+		summarizeBy: sum
+		sourceColumn: CRA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Site Maint (Non Asset)'
+		dataType: double
+		formatString: #,0
+		lineageTag: e2dca503-a5f9-4155-846e-482bf2ef5b08
+		summarizeBy: sum
+		sourceColumn: Site Maint (Non Asset)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Spare Rep.(UPS)'
+		dataType: double
+		formatString: #,0
+		lineageTag: 15a58da1-edf0-436e-b51e-95dadc562712
+		summarizeBy: sum
+		sourceColumn: Spare Rep.(UPS)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'UPS AMC'
+		dataType: double
+		formatString: 0
+		lineageTag: 1d888799-5fa4-4975-a1f6-343bbd3d75b3
+		summarizeBy: sum
+		sourceColumn: UPS AMC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ATM AMC'
+		dataType: int64
+		formatString: #,0
+		lineageTag: c6b980a0-d7f1-4b88-970a-504df9668334
+		summarizeBy: sum
+		sourceColumn: ATM AMC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'VSAT AMC'
+		dataType: double
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: febfda7f-aedb-42cb-a76e-6e4f91dc6ae4
+		summarizeBy: sum
+		sourceColumn: VSAT AMC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column EBILL
+		dataType: double
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 32248cee-41f8-4344-b6bf-0219e1b6af14
+		summarizeBy: sum
+		sourceColumn: EBILL
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column Penalty
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: d660b409-766f-461d-b30f-35cf1a50f553
+		summarizeBy: sum
+		sourceColumn: Penalty
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Total Cost'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 94ec1e54-7b46-4e28-ae6c-cb6674118759
+		summarizeBy: sum
+		sourceColumn: Total Cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Gross Profit'
+		dataType: int64
+		formatString: 0
+		lineageTag: 70a4a382-3515-4c8d-b2ee-705a181f195f
+		summarizeBy: sum
+		sourceColumn: Gross Profit
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ATM TYPE'
+		dataType: string
+		lineageTag: 1f25c8d7-ab12-4fcc-b608-32374dcbdb05
+		summarizeBy: none
+		sourceColumn: ATM TYPE
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MARGIN RANGE Current Month'
+		dataType: string
+		lineageTag: 96904808-288f-4cc7-a8b9-4debabed40a5
+		summarizeBy: none
+		sourceColumn: MARGIN RANGE Current Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'TXN RANGE Previous Month'
+		dataType: string
+		lineageTag: b9bac315-c66e-4628-bcce-afa540fe104f
+		summarizeBy: none
+		sourceColumn: TXN RANGE Previous Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Revenue Performance'
+		dataType: string
+		lineageTag: 19bef879-ae3e-4296-8d83-65308966d3e6
+		summarizeBy: none
+		sourceColumn: Revenue Performance
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Up Time'
+		dataType: double
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 31574a89-639f-4924-a68c-7dd7c2a04f04
+		summarizeBy: sum
+		sourceColumn: Up Time
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Year' = 'dataset'[Month] & "-" & RIGHT('dataset'[Year],2)
+		lineageTag: 067f6d89-a5e4-461a-b5d2-faebfc29b4b3
+		summarizeBy: none
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dataset = m
+		mode: import
+		source = ```
+				let
+				    Source = MySQL.Database("localhost:3306", "power_data", [ReturnSingleDatabase=true]),
+				    power_data_bob_dataset = Source{[Schema="power_data",Item="bob_dataset"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(power_data_bob_dataset,{{"Year", Int64.Type}, {"Month", type text}, {"BANK", type text}, {"ATM id", type text}, {"STATE", type text}, {"Effective days", Int64.Type}, {"Fin Txn", Int64.Type}, {"Non Fin Txn", Int64.Type}, {"Monthly Txn", Int64.Type}, {"AVG Fin Txn", Int64.Type}, {"AVG Non Fin Txn", Int64.Type}, {"AVG Total TXN", Int64.Type}, {"Monthly Rev", Int64.Type}, {"MHA Revenue", Int64.Type}, {"ATM Rev Total", Int64.Type}, {"CRA", Int64.Type}, {"MHA Cost", type text}, {"Spare Rep. (SLM)#(lf) (AssetOEM)", type text}, {"Site Maint#(lf) (Non Asset)", Int64.Type}, {"Spare Rep.(AC)", type text}, {"Spare Rep.(UPS)", Int64.Type}, {"Onetime Cost", type text}, {"FLM", Int64.Type}, {"SUPPLIES", Int64.Type}, {"UPS AMC", Int64.Type}, {"ATM AMC", Int64.Type}, {"VSAT AMC", Int64.Type}, {"BW + BCKHL", Int64.Type}, {"ESURVEILLANCE", Int64.Type}, {"HK", Int64.Type}, {"SUD", Int64.Type}, {"EBILL", Int64.Type}, {"RENT", Int64.Type}, {"Insurance", Int64.Type}, {"EJ", Int64.Type}, {"Compensation", Int64.Type}, {"Penalty", Int64.Type}, {"Total Cost", Int64.Type}, {"Gross Profit", Int64.Type}, {"GROSS PROFIT %", Percentage.Type}, {"Quarter", type text}, {"ATM TYPE", type text}, {"MARGIN RANGE Current Month", type text}, {"TXN RANGE Current Month", type text}, {"TXN RANGE Previous Month", type text}, {"TXN RANGE Previous 2nd Month", type text}, {"Current Margin Range Above/Below 0%", type text}, {"Previous Month Margin Range Above/Below 0%", type text}, {"Previous 2nd Month Margin Range Above/Below 0%", type text}, {"Previous 3rd Month Margin Range Above/Below 0%", type text}, {"Category", type text}, {"Revenue Performance", type text}, {"Up Time", Percentage.Type}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"MHA Cost", "Spare Rep. (SLM)#(lf) (AssetOEM)", "Spare Rep.(AC)", "Onetime Cost", "Category", "BANK", "Effective days", "FLM", "SUPPLIES", "BW + BCKHL", "ESURVEILLANCE", "HK", "SUD", "Insurance", "EJ", "Compensation", "Quarter", "Previous 3rd Month Margin Range Above/Below 0%", "Previous 2nd Month Margin Range Above/Below 0%", "Previous Month Margin Range Above/Below 0%", "Current Margin Range Above/Below 0%", "TXN RANGE Previous 2nd Month", "RENT", "AVG Fin Txn", "AVG Non Fin Txn"}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Removed Columns","0%  5%","0% - 5%",Replacer.ReplaceText,{"MARGIN RANGE Current Month"}),
+				    #"Sorted Rows" = Table.Sort(#"Replaced Value",{{"MARGIN RANGE Current Month", Order.Ascending}}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Sorted Rows","5%  10%","5% - 10%",Replacer.ReplaceText,{"MARGIN RANGE Current Month"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","10%  15%","10% -15%",Replacer.ReplaceText,{"MARGIN RANGE Current Month"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","15%  20%","15% - 20%",Replacer.ReplaceText,{"MARGIN RANGE Current Month"}),
+				    #"Replaced Value4" = Table.ReplaceValue(#"Replaced Value3","20%  25%","20% - 25%",Replacer.ReplaceText,{"MARGIN RANGE Current Month"}),
+				    #"Replaced Value5" = Table.ReplaceValue(#"Replaced Value4","25%  30%","25% - 30%",Replacer.ReplaceText,{"MARGIN RANGE Current Month"}),
+				    #"Replaced Value6" = Table.ReplaceValue(#"Replaced Value5","50  75","50 - 75",Replacer.ReplaceText,{"TXN RANGE Previous Month"}),
+				    #"Replaced Value7" = Table.ReplaceValue(#"Replaced Value6","75  100","75 -100",Replacer.ReplaceText,{"TXN RANGE Previous Month"}),
+				    #"Replaced Value8" = Table.ReplaceValue(#"Replaced Value7","100  125","100 - 125",Replacer.ReplaceText,{"TXN RANGE Previous Month"}),
+				    #"Replaced Value9" = Table.ReplaceValue(#"Replaced Value8","125  150","125 - 150",Replacer.ReplaceText,{"TXN RANGE Previous Month"}),
+				    #"Replaced Value10" = Table.ReplaceValue(#"Replaced Value9","150  175","150 - 175",Replacer.ReplaceText,{"TXN RANGE Previous Month"}),
+				    #"Replaced Value11" = Table.ReplaceValue(#"Replaced Value10","10K  20K","10K - 20K",Replacer.ReplaceText,{"Revenue Performance"}),
+				    #"Replaced Value12" = Table.ReplaceValue(#"Replaced Value11","20K  25K","20K - 25K",Replacer.ReplaceText,{"Revenue Performance"}),
+				    #"Replaced Value13" = Table.ReplaceValue(#"Replaced Value12","25K  30K","25K - 30K",Replacer.ReplaceText,{"Revenue Performance"}),
+				    #"Replaced Value14" = Table.ReplaceValue(#"Replaced Value13","30K  35K","30K - 35K",Replacer.ReplaceText,{"Revenue Performance"}),
+				    #"Replaced Value15" = Table.ReplaceValue(#"Replaced Value14","35K  40K","35K - 40K",Replacer.ReplaceText,{"Revenue Performance"}),
+				    #"Replaced Value16" = Table.ReplaceValue(#"Replaced Value15","40K  50K","40K - 50K",Replacer.ReplaceText,{"Revenue Performance"}),
+				    #"Replaced Value17" = Table.ReplaceValue(#"Replaced Value16","175 200","175 - 200",Replacer.ReplaceText,{"TXN RANGE Previous Month"}),
+				    #"Replaced Value18" = Table.ReplaceValue(#"Replaced Value17","175  200","175 - 200",Replacer.ReplaceText,{"TXN RANGE Previous Month"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Replaced Value18", each true),
+				    #"Added Custom" = Table.AddColumn(#"Filtered Rows", "Custom", each 
+				    if Text.Upper(Text.Trim([Month])) = "JAN" then 1
+				    else if Text.Upper(Text.Trim([Month])) = "FEB" then 2
+				    else if Text.Upper(Text.Trim([Month])) = "MAR" then 3
+				    else if Text.Upper(Text.Trim([Month])) = "APR" then 4
+				    else if Text.Upper(Text.Trim([Month])) = "MAY" then 5
+				    else if Text.Upper(Text.Trim([Month])) = "JUN" then 6
+				    else if Text.Upper(Text.Trim([Month])) = "JUL" then 7
+				    else if Text.Upper(Text.Trim([Month])) = "AUG" then 8
+				    else if Text.Upper(Text.Trim([Month])) = "SEP" then 9
+				    else if Text.Upper(Text.Trim([Month])) = "OCT" then 10
+				    else if Text.Upper(Text.Trim([Month])) = "NOV" then 11
+				    else if Text.Upper(Text.Trim([Month])) = "DEC" then 12
+				    else 0
+				),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Added Custom",{"Custom", "AVG Total TXN", "GROSS PROFIT %"}),
+				    #"Replaced Value19" = Table.ReplaceValue(#"Removed Columns1",null,0,Replacer.ReplaceValue,{"Site Maint#(lf) (Non Asset)"}),
+				    #"Replaced Value20" = Table.ReplaceValue(#"Replaced Value19",null,0,Replacer.ReplaceValue,{"Spare Rep.(UPS)"}),
+				    #"Replaced Value21" = Table.ReplaceValue(#"Replaced Value20",null,0,Replacer.ReplaceValue,{"UPS AMC"}),
+				    #"Replaced Value22" = Table.ReplaceValue(#"Replaced Value21",null,0,Replacer.ReplaceValue,{"VSAT AMC"}),
+				    #"Replaced Value23" = Table.ReplaceValue(#"Replaced Value22",null,0,Replacer.ReplaceValue,{"EBILL"}),
+				    #"Removed Columns2" = Table.RemoveColumns(#"Replaced Value23",{"TXN RANGE Current Month"})
+				in
+				    #"Removed Columns2"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

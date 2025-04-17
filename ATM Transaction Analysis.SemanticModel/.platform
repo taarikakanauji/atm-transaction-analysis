@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "ATM Transaction Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0beb5b40-ce44-4e2b-bd49-775c9d29d5ac"
+  }
+}

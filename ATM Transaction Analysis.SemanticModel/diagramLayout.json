@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 129,
+            "y": 0
+          },
+          "nodeIndex": "dataset",
+          "nodeLineageTag": "5cf19ad4-a862-4370-8415-520289cbd8cc",
+          "size": {
+            "height": 506,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 677,
+            "y": 62.5
+          },
+          "nodeIndex": "MonthTable",
+          "nodeLineageTag": "4c456f8d-bec4-471b-8e6f-e0b6c534f09f",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 832,
+            "y": 189
+          },
+          "nodeIndex": "Data Dictionary",
+          "nodeLineageTag": "8672817a-1848-4bc6-8da6-00019142738d",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 987,
+            "y": 177
+          },
+          "nodeIndex": "Atm type Dictionary",
+          "nodeLineageTag": "51bb6353-4d00-4a2d-ba03-6510e2c835e2",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "ATM Transaction Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4b3525cd-9afb-41e1-8606-6ac9744b4d39"
+  }
+}
