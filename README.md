@@ -26,15 +26,6 @@ This dashboard enables stakeholders to track and analyze ATM performance and pro
 
 - Performance Metrics: Uptime, Revenue Performance, Compensation, and Penalties 
 
-The dashboard will be extremely helpful to multiple stakeholders including: 
-
-- Social Media Managers & Digital Strategists
-
-- Marketing & Content Teams
-
-- Analytics & Insights Teams
-
-- Campaign Owners
 
 # Objective
 
