@@ -232,9 +232,6 @@ Boost High-Margin ATM Support: Invest in ATMs showing >30% margins for better RO
 ### **Power BI Service Demo**  
 [Power BI Service Demo (MKV)](https://github.com/taarikakanauji/atm-transaction-analysis/blob/main/Power-Service-Demo.mkv)  
 
-### **Dataset Folder**  
-[Dataset Files](https://github.com/taarikakanauji/atm-transaction-analysis/tree/main/dataset)  
-
 ### **PBIP Files**  
 - **Report:** [Report Files](https://github.com/taarikakanauji/atm-transaction-analysis/tree/main/ATM%20Transaction%20Analysis.Report)  
 - **Semantic Model:** [Semantic Model Files](https://github.com/taarikakanauji/atm-transaction-analysis/tree/main/ATM%20Transaction%20Analysis.SemanticModel)  
