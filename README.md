@@ -94,7 +94,7 @@ As a Business Analyst for a leading bank, I was responsible for creating an inte
   ![KPI](https://github.com/taarikakanauji/atm-transaction-analysis/raw/main/images/kpi.jpg)
 
            
-- Step 7 : Representing cost analysis bifurcated by ATM Cost and Maintainence – I added a custom donut chart to showcase the ATM cost and maintenance costs division spanning different months.
+- Step 7 : Representing cost analysis bifurcated by ATM Cost and Maintenance – I added a custom donut chart to showcase the ATM cost and maintenance costs division spanning different months.
 
         Fields Used:
 
@@ -113,7 +113,7 @@ As a Business Analyst for a leading bank, I was responsible for creating an inte
 
         X-axis: State
 
-   The chart revealed that multiple states including Tripura, Nagaland, Meghalaya and Mizoram each contributed to near equal revenues in the respective categories. The leader state was Assam, driving the highest revenues in all categories while Sikkim reported the lowest reveues. This also suggests that the low sized states have reported lower revenues compared to the larger ones. The striking statistic was the drastic lower levels of MHA revenues in comparison to the ATM and Monthly revenues.
+   The chart revealed that multiple states including Tripura, Nagaland, Meghalaya and Mizoram each contributed to near equal revenues in the respective categories. The leader state was Assam, driving the highest revenues in all categories while Sikkim reported the lowest revenues. This also suggests that the low sized states have reported lower revenues compared to the larger ones. The striking statistic was the drastic lower levels of MHA revenues in comparison to the ATM and Monthly revenues.
 
   ![ATM MHA Monthly Revenue](https://github.com/taarikakanauji/atm-transaction-analysis/raw/main/images/atm-mha-monthly-revenue.jpg)
 
